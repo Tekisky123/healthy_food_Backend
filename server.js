@@ -9,7 +9,6 @@ import orderRoutes from './routes/orderRoutes.js';
 const app = express();
 
 // Database connection
-
 await connectDB();
 
 // Middleware
